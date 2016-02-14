@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFFB6F0C1C60BF5100D9EFE2"
-               BuildableName = "Hello World.app"
-               BlueprintName = "Hello World"
-               ReferencedContainer = "container:Hello World.xcodeproj">
+               BuildableName = "Cat Age.app"
+               BlueprintName = "Cat Age"
+               ReferencedContainer = "container:Cat Age.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFFB6F0C1C60BF5100D9EFE2"
-            BuildableName = "Hello World.app"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BuildableName = "Cat Age.app"
+            BlueprintName = "Cat Age"
+            ReferencedContainer = "container:Cat Age.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFFB6F0C1C60BF5100D9EFE2"
-            BuildableName = "Hello World.app"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BuildableName = "Cat Age.app"
+            BlueprintName = "Cat Age"
+            ReferencedContainer = "container:Cat Age.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFFB6F0C1C60BF5100D9EFE2"
-            BuildableName = "Hello World.app"
-            BlueprintName = "Hello World"
-            ReferencedContainer = "container:Hello World.xcodeproj">
+            BuildableName = "Cat Age.app"
+            BlueprintName = "Cat Age"
+            ReferencedContainer = "container:Cat Age.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

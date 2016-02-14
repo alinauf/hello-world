@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFC3DC571C64A7E8002FA733 /* Cat.png in Resources */ = {isa = PBXBuildFile; fileRef = DFC3DC561C64A7E8002FA733 /* Cat.png */; };
 		DFFB6F111C60BF5100D9EFE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFB6F101C60BF5100D9EFE2 /* AppDelegate.swift */; };
 		DFFB6F131C60BF5100D9EFE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFB6F121C60BF5100D9EFE2 /* ViewController.swift */; };
 		DFFB6F161C60BF5100D9EFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFB6F141C60BF5100D9EFE2 /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DFFB6F0D1C60BF5100D9EFE2 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC3DC561C64A7E8002FA733 /* Cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat.png; sourceTree = "<group>"; };
+		DFFB6F0D1C60BF5100D9EFE2 /* Cat Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFB6F101C60BF5100D9EFE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFFB6F121C60BF5100D9EFE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFFB6F151C60BF5100D9EFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +40,7 @@
 		DFFB6F041C60BF5100D9EFE2 = {
 			isa = PBXGroup;
 			children = (
-				DFFB6F0F1C60BF5100D9EFE2 /* Hello World */,
+				DFFB6F0F1C60BF5100D9EFE2 /* Cat Age */,
 				DFFB6F0E1C60BF5100D9EFE2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,32 @@
 		DFFB6F0E1C60BF5100D9EFE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFFB6F0D1C60BF5100D9EFE2 /* Hello World.app */,
+				DFFB6F0D1C60BF5100D9EFE2 /* Cat Age.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFFB6F0F1C60BF5100D9EFE2 /* Hello World */ = {
+		DFFB6F0F1C60BF5100D9EFE2 /* Cat Age */ = {
 			isa = PBXGroup;
 			children = (
 				DFFB6F101C60BF5100D9EFE2 /* AppDelegate.swift */,
 				DFFB6F121C60BF5100D9EFE2 /* ViewController.swift */,
+				DFC3DC561C64A7E8002FA733 /* Cat.png */,
 				DFFB6F141C60BF5100D9EFE2 /* Main.storyboard */,
 				DFFB6F171C60BF5100D9EFE2 /* Assets.xcassets */,
 				DFFB6F191C60BF5100D9EFE2 /* LaunchScreen.storyboard */,
 				DFFB6F1C1C60BF5100D9EFE2 /* Info.plist */,
 			);
+			name = "Cat Age";
 			path = "Hello World";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFFB6F0C1C60BF5100D9EFE2 /* Hello World */ = {
+		DFFB6F0C1C60BF5100D9EFE2 /* Cat Age */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFFB6F1F1C60BF5100D9EFE2 /* Build configuration list for PBXNativeTarget "Hello World" */;
+			buildConfigurationList = DFFB6F1F1C60BF5100D9EFE2 /* Build configuration list for PBXNativeTarget "Cat Age" */;
 			buildPhases = (
 				DFFB6F091C60BF5100D9EFE2 /* Sources */,
 				DFFB6F0A1C60BF5100D9EFE2 /* Frameworks */,
@@ -79,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hello World";
+			name = "Cat Age";
 			productName = "Hello World";
-			productReference = DFFB6F0D1C60BF5100D9EFE2 /* Hello World.app */;
+			productReference = DFFB6F0D1C60BF5100D9EFE2 /* Cat Age.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +100,11 @@
 				TargetAttributes = {
 					DFFB6F0C1C60BF5100D9EFE2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H24HSMEDXW;
 					};
 				};
 			};
-			buildConfigurationList = DFFB6F081C60BF5100D9EFE2 /* Build configuration list for PBXProject "Hello World" */;
+			buildConfigurationList = DFFB6F081C60BF5100D9EFE2 /* Build configuration list for PBXProject "Cat Age" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFFB6F0C1C60BF5100D9EFE2 /* Hello World */,
+				DFFB6F0C1C60BF5100D9EFE2 /* Cat Age */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +129,7 @@
 			files = (
 				DFFB6F1B1C60BF5100D9EFE2 /* LaunchScreen.storyboard in Resources */,
 				DFFB6F181C60BF5100D9EFE2 /* Assets.xcassets in Resources */,
+				DFC3DC571C64A7E8002FA733 /* Cat.png in Resources */,
 				DFFB6F161C60BF5100D9EFE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,10 +253,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alinauf.Hello-World";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Cat Age";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,17 +267,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alinauf.Hello-World";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Cat Age";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFFB6F081C60BF5100D9EFE2 /* Build configuration list for PBXProject "Hello World" */ = {
+		DFFB6F081C60BF5100D9EFE2 /* Build configuration list for PBXProject "Cat Age" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFFB6F1D1C60BF5100D9EFE2 /* Debug */,
@@ -277,13 +289,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFFB6F1F1C60BF5100D9EFE2 /* Build configuration list for PBXNativeTarget "Hello World" */ = {
+		DFFB6F1F1C60BF5100D9EFE2 /* Build configuration list for PBXNativeTarget "Cat Age" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFFB6F201C60BF5100D9EFE2 /* Debug */,
 				DFFB6F211C60BF5100D9EFE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
